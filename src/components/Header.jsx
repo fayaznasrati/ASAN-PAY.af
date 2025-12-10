@@ -8,8 +8,8 @@ const Header = () => {
 
 
     return(
-        <div className=" max-w-screen-2xl mx-auto z-[9999999] fixed inset-0 w-full h-[10px]  px-[100px] mt-4">
-            <div className="align-center bg-gradient-to-b h-[60px] relative transition-all duration-300 from-[#185146]/80 hover:blur-[20] to-[#1d5c37]/80   flex px-8 py-3 rounded-full justify-between items-center  ">
+        <div className=" max-w-screen-2xl mx-auto z-[9999999] fixed inset-0 w-full h-[10px] px-[10px] xl:px-[100px] mt-4">
+            <div className="align-center xl:bg-gradient-to-b h-[60px] relative transition-all duration-300 from-[#185146]/80 hover:blur-[20] to-[#1d5c37]/80   flex px-8 py-3 rounded-full justify-between items-center  ">
             <div className="w-[130px] h-full">
                 <img src="/logo.png" className="w-full h-full object-cover"/>
             </div>
@@ -36,7 +36,7 @@ const Header = () => {
             <button className="px-5 py-2 md:block hidden bg-gradient-to-r rounded-full cursor-pointer text-[#FFFFFF] from-[#2E8C7A] to-[#0C2621]">
                 Log In
             </button>
-          <button onClick={()=> setIsOpen(true)} className="text-[#fff] md:hidden  cursor-pointer">humberger</button>
+          <button onClick={()=> setIsOpen(true)} className="text-[#fff] md:hidden  cursor-pointer">{isOpen ? "humberger": "numberger"}</button>
             </div>
               
 
