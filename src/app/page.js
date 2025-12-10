@@ -10,6 +10,8 @@ import Section8 from "@/components/Section8";
 import Faq from "./data/faqData";
 import FaqToggle from "@/components/faqToggle";
 import Section10 from "@/components/Section10";
+import FeatureCard from "@/components/Cardslider";
+import FeaturesSection from "@/components/Cardslider";
 
 
 export default function Home() {
@@ -48,6 +50,7 @@ Why You Should Choose Us</h1></div>
       </section>
       <Section3/>
       <Section4/>
+      <FeaturesSection/>
       <Section5/>
       <Section6/>
       <Section7/>
