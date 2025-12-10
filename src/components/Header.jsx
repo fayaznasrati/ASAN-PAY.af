@@ -52,7 +52,7 @@ const Header = () => {
                 </li></Link>
                 <Link href="/Features">
                 <li>
-                    Features
+                    Feature
                 </li></Link>
                 <Link href="/Aboutus">
                   <li>
