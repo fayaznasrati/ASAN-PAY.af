@@ -6,7 +6,7 @@ const Sectionc4 = () => {
 
 return (
     <div className="  relative z-[99999] top-[120px] w-full mx-auto items-center content-center text-center pb-[100px] max-w-screen-2xl">
-
+feature responsivness in 2xl screen,
         <div className="grid grid-cols-3  px-[80px]">
             {featurescard.map((feat)=> <div key={feat.id}>
                   <div  className="bg-[url('/Group9.png')]  px-[45px] flex flex-col justify-center items-center content-center bg-cover ">
