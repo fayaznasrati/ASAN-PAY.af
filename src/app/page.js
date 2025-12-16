@@ -12,6 +12,11 @@ import FaqToggle from "@/components/faqToggle";
 import Section10 from "@/components/Section10";
 import FeatureCard from "@/components/Cardslider";
 import FeaturesSection from "@/components/Cardslider";
+import ServiceSlider from "@/components/ServciceSlider";
+import Section5r from "@/components/Section5r";
+import Section7r from "@/components/Section7r";
+import Section8r from "@/components/Section8r";
+import Section10r from "@/components/Section10r";
 
 
 export default function Home() {
@@ -21,15 +26,23 @@ export default function Home() {
       <section className="absolute items-center mx-auto top-[540px] z-[999] 2xl:top-[740px] left-0 right-0" >
         <div className="relative items-center mx-auto ">
           <div className="absolute  top-[100px] flex flex-col left-0 right-0 max-w-screen-2xl   justify-center w-full mx-auto align-middle items-center">
-            <div className="w-[600px] ">
-            <h1 className="text-center mb-[100px] text-[#383141] text-[40px] font-bold w-full ">Simple, Swift, and Secure, 
+            <div className="xl:w-[600px] px-[30px] xl:px-0 ">
+              <div className="xl:hidden">
+              <Image 
+              src="/mobile.png"
+              alt="mobile"
+              width={1000}
+              height={1000}
+              /></div>
+            <h1 className="text-center mb-[100px] text-[#383141] text-[28px] mt-[60px] xl:mt-0 xl:text-[40px] font-bold w-full ">Simple, Swift, and Secure, 
 Why You Should Choose Us</h1></div>
-<div className="grid px-5 gap-10 grid-cols-4 pl-[80px] pr-[80px] ">
+     <ServiceSlider/>
+<div className="xl:grid hidden  px-5 gap-10 grid-cols-4 pl-[80px] pr-[80px] ">
 {Section2.map((sec) => <div key={sec.id}>
   <div className="2xl:w-[70px] 2xl:h-[70px] xl:w-[50px] xl:h-[50px] rounded-full 2xl:p-3 xl:p-2.5 bg-[#F6F2FD] items-center content-center ">
     {sec.icon}
     <Image 
-    alt=""
+    alt="icon"
     width={100}
     height={100}
     className="w-full h-full "
@@ -44,25 +57,35 @@ Why You Should Choose Us</h1></div>
         src="/elipse.png"
         width={1920}
         height={400}
+        className="mt-[150px] xl:mt-0"
         alt="/elipse"
-        /></div>
+        />
+        </div>
 
       </section>
       <Section3/>
+   
       <Section4/>
       <FeaturesSection/>
+ 
       <Section5/>
+      <Section5r/>
+   
       <Section6/>
       <Section7/>
+      <Section7r/>
       <Section8/>
-      <div className="max-w-screen-2xl pb-[8rem] mx-auto flex flex-col items-center justify-center px-[80px] pt-[80px]  ">
-        <div className="rounded-full bg-[#F0F0F0] w-[125px] h-[49px] mb-[18px] items-center content-center pl-[18px] ">
+      <Section8r/>
+
+      <div className="max-w-screen-2xl xl:pb-[8rem] mx-auto  xl:flex flex-col items-center justify-center xl:px-[80px] pt-[80px] px-[40px]  ">
+        <div className="rounded-full bg-[#F0F0F0] w-[125px] h-[49px] xl:mb-[18px] mb-[30px] items-center content-center pl-[18px] mx-auto ">
         <p className="xl:text-[18px] 2xl:text-[20px] font-bold text-[#28937F]">Questions</p>
         </div>
-        <h1 className="xl:mb-[120px] 2xl:mb-[80px] 2xl:text-[40px] xl:text-[35px] font-bold">Frequently Asked Questions</h1>
+        <h1 className="xl:mb-[120px] 2xl:mb-[80px] mb-[50px] 2xl:text-[40px] xl:text-[35px] text-[30px] text-center xl:text-start font-bold">Frequently Asked Questions</h1>
         <div className="2xl:w-[1200px] xl:w-[1000px]">
       {Faq.map((faq)=> <FaqToggle heading={faq.title} children={faq.children}  key={faq.id} />)}</div></div>
       <Section10/>
+      <Section10r/>
     </div>
   );
 }

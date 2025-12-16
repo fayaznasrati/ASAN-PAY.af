@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
 return(
- <div className="bg-[url('/Footer(1).png')] bg-cover bg-center   h-[700px]   ">
+ <div className="bg-[url('/Footer(1).png')] bg-cover bg-center hidden xl:block  h-[700px]   ">
     <div className="max-w-screen-2xl mx-auto px-[100px]">
 <div className="flex w-full">
  <div className="w-[50%]">

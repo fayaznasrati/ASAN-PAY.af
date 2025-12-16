@@ -22,9 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} h-[1000px] overflow-x-hidden  antialiased`}
-      >
+    <body
+  // style={{ backgroundColor: "white", color:"black" }}
+  className={`${geistSans.variable} ${geistMono.variable} h-[1000px] overflow-x-hidden antialiased`}
+>
+
         <Header/>
         {children}
         <Footer/>

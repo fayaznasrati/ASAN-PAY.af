@@ -37,7 +37,7 @@ const FeaturesSection = () => {
   const visibleIndices = getVisibleCards();
 
   return (
-    <section className="pb-[100px] px-[80px] bg-background mt-[100px] ">
+    <section className="pb-[100px] hidden xl:block px-[80px] bg-background mt-[100px] ">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
