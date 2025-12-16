@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 const Section10 = () => {
     return (
         <div>
-             <div className="px-[80px] max-w-screen-2xl mx-auto  py-[100px]  xl:mt-[-100px]">
+             <div className="px-[80px] max-w-screen-2xl mx-auto hidden xl:block  py-[100px]  xl:mt-[-100px]">
                         <div className=" relative">
                             <Image
                                                           src="/recall-wrapper.png"

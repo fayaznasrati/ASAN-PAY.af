@@ -2,7 +2,7 @@ const Section5 = () => {
     return (
 
  
-    <div className="relative max-w-screen-2xl px-5 mx-auto pl-[80px] pr-[80px]">
+    <div className="relative max-w-screen-2xl px-5 mx-auto pl-[80px] pr-[80px] hidden xl:block">
         <img src="Rectangle 3.png" className="   mt-[200px]  " alt="Rectangle" />
         <div className="absolute top-[-140px] pl-[10px] pr-[90px] flex">
             <div className="w-[60%]">

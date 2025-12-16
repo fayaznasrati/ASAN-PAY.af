@@ -104,7 +104,7 @@ const Section8 = () => {
   };
 
     return (
-        <div className="w-full py-4 mb-[4rem] mt-[100px]   max-w-screen-2xl mx-auto select-none">
+        <div className="w-full py-4 mb-[4rem] mt-[100px] hidden xl:block  max-w-screen-2xl mx-auto select-none">
             <div className="w-full mb-[4rem]">
                 <h1 className="text-[42px] font-semibold text-center mb-5">
                     What Our Happy User Says

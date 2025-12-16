@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section7 = () => {
     return (
-        <div className="px-[80px] max-w-screen-2xl mx-auto py-[100px] mt-[100px]">
+        <div className="px-[80px] hidden xl:block max-w-screen-2xl mx-auto py-[100px] mt-[100px]">
             <div className=" relative">
                 <Image
                                               src="/Frame 6.png"

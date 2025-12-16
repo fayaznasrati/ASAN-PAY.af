@@ -9,7 +9,7 @@ const Header = () => {
     
 
     return(
-        <div className=" max-w-screen-2xl mx-auto z-[9999999] fixed inset-0 w-full xl:h-[10px]  xl:px-[100px] xl:mt-4">
+        <div className=" max-w-screen-2xl mx-auto z-[9999999] fixed  w-full xl:h-[10px]  xl:px-[100px] xl:mt-4">
             <div className={`  ${isOpen ? "bg-gradient-to-b md:bg-gradient-to-b  md:from-[#010c0a]/0 md:to-[#f6fa0d]/0 from-[#33B99F] to-[#0F433D] h-[100vh] " : " "}`}>
             <div className={`align-center  xl:bg-gradient-to-b xl:h-[60px]   relative transition-all duration-300 xl:from-[#185146]/80 hover:blur-[20] xl:to-[#1d5c37]/80   flex px-8 py-3 rounded-full justify-between items-center  `}>
 
@@ -52,7 +52,7 @@ const Header = () => {
                 </li></Link>
                 <Link href="/Features">
                 <li>
-                    Feature
+                    Features
                 </li></Link>
                 <Link href="/Aboutus">
                   <li>

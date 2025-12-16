@@ -23,5 +23,10 @@ const Faq = [
         title: "What should I do if I need help using ASAN-PAY?",
         children: "ASAN-PAY is a digital wallet that helps you store money, make payments, transfer funds, and manage all your financial transactions easily through your mobile device."
     },
+           {
+        id: 5,
+        title: "Can I send or receive money using ASAN-PAY?",
+        children: "ASAN-PAY is a digital wallet that helps you store money, make payments, transfer funds, and manage all your financial transactions easily through your mobile device."
+    },
 ]
 export default Faq;
