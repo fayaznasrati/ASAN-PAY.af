@@ -10,7 +10,6 @@ import Section8 from "@/components/Section8";
 import Faq from "./data/faqData";
 import FaqToggle from "@/components/faqToggle";
 import Section10 from "@/components/Section10";
-import FeatureCard from "@/components/Cardslider";
 import FeaturesSection from "@/components/Cardslider";
 import ServiceSlider from "@/components/ServciceSlider";
 import Section5r from "@/components/Section5r";

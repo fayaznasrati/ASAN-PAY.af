@@ -12,19 +12,31 @@ const AboutUsPage = () => {
 return (
     <div>
         <Sectiona1/>
+                         
         
 
         <div className=" absolute top-140 z-999">
         <div className="relative 2xl:top-[300px]">
+            
         <Image
                 src="/elipse.png"
                 width={1920}
                 height={400}
                 alt="/elipse"
-                className=" "
+                className="xl:mt-0 mt-[150px] h-[150px]"
                 />
+                 <div className="xl:hidden ">
+                              <Image 
+                              src="/Frame 1707481202.png"
+                              alt="mobile"
+                              className=""
+                              width={1000}
+                              height={1000}
+                              /></div>
+                
                 </div>
                 </div>
+
                 <Sectiona2/>
                 <Sectiona3/>
                 <Sectiona4/>
