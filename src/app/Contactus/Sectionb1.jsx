@@ -15,14 +15,14 @@ const Sectionb1 = () => {
         <Image
                   src="/Rectangle copy 2.png"
                   className=" absolute 2xl:w-[320px] xl:w-[220px] 2xl:h-[650px] xl:h-[450px] 2xl:top-[130px] xl:top-[80px] 2xl:left-[750px] xl:left-[580px]"
-                  width={2200}
+                  width={1000}
                   height={400}
                   alt="homeImage"
                   />
         <Image
                   src="/be77bf75-5c9a-4bcd-8ef7-3fe7e6603184 copy1 2.png"
                   className=" absolute 2xl:w-[1000px] xl:w-[700px] 2xl:h-[750px] xl:h-[500px] 2xl:top-[245px] xl:top-[170px] 2xl:left-[270px] xl:left-[250px] z-[999]"
-                  width={2200}
+                  width={1000}
                   height={400}
                   alt="homeImage"
                   />

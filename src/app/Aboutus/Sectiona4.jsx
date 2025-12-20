@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Sectiona4 = () => {
     return(
-        <div className="mt-[150px] max-w-screen-2xl mx-auto px-[100px] pb-[100px]  ">
+        <div className="xl:mt-[150px] mt-[50px] max-w-screen-2xl mx-auto xl:px-[100px] px-[35px] xl:pb-[100px]   ">
 <Image
                                                               src="/Frame 16865532591 1.png"
                                                               width={2200}

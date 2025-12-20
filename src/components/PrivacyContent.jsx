@@ -125,9 +125,6 @@ const PrivacyContent = () => {
         <p className="mb-4 text-muted-foreground leading-relaxed">
           For any query email us on following email address: <strong className="text-foreground">info@asan-pay.com</strong> or contact us on mobile # <strong className="text-foreground">+93-XXX-XXXXXX</strong>. Complaints to DAB if unresolved.
         </p>
-        <p className="mb-4 text-muted-foreground leading-relaxed">
-          By ticking "I Accept", you consent to this Policy and our data practices. Your trust is our priority.
-        </p>
       </section>
     </div>
   );
