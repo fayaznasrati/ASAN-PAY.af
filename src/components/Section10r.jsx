@@ -25,7 +25,7 @@ with us. </h1>
 </div>
 <div className="mt-[60px]">
     <Image
-                                                              src="/Group 1410088200.png"
+                                                              src="/Frame 1707481217.png"
                                                               width={2200}
                                                               height={400}
                                                               alt="homeImage"
