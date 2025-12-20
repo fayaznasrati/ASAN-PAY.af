@@ -16,7 +16,7 @@ return (
 <div className=" flex ">
 <div className="w-[50%]">
 <Image
-                                          src="/iPhone 15 Pro Black Titanium Mockup Portrait.png"
+                                          src="/Mockup_Questions 2 (4).png"
                                           className=" absolute mt-[20px] w-[350px]  h-[350px] 2xl:top-[3128px] xl:top-[2457px] 2xl:left-[280px] xl:left-[100px] z-[99] "
                                           width={2200}
                                           height={400}

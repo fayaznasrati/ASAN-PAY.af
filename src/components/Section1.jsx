@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 const Section1 = () => {
     return(
         
-            <section className="relative " >
+            <section className="relative  " >
       <Image
       src="/bgHome.png"
       className="cursor-pointer hidden xl:block"
@@ -83,8 +83,9 @@ const Section1 = () => {
         
         <div className="w-[44%] hidden relative xl:flex">
             <div className="xl:w-[230px] 2xl:w-[370px] absolute top-[70px] z-99">
-            <img src="Mobile 1.png" className="w-auto  h-auto object-cover " alt="Mobile image 1" /></div>
-            <div className="xl:w-[230px] 2xl:w-[370px] ml-[170px] absolute 2xl:bottom-[-210px] xl:bottom-[-90px]"><img src="Mobile 2.png" className="w-full h-full object-cover" alt="" /></div>
+            <img src="Mockup_Questions 2 (3).png" className="w-auto  h-auto object-cover " alt="Mobile image 1" /></div>
+            <div className="xl:w-[230px] 2xl:w-[370px] ml-[170px] absolute 2xl:bottom-[-210px] xl:bottom-[-90px]">
+            <img src="Mobile 2.png" className="w-full h-full object-cover" alt="" /></div>
         </div></div>
       </div>
    </section>
