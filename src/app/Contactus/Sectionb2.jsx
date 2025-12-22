@@ -1,4 +1,7 @@
-import MapCard from "@/components/MapCard";
+"use client";
+import dynamic from "next/dynamic";
+
+const MapCard = dynamic(() => import("@/components/MapCard"), { ssr: false });
 const Sectionb2 = () => {
     return(
         <div className="flex   mt-[-80px]  border-[#CDCDCD] border-1 px-[100px] py-[80px] gap-5 relative max-w-screen-2xl mx-auto   ">
