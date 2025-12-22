@@ -11,7 +11,7 @@ const FaqToggle = ({  heading, children }) => {
 
   return (
     
-    <div className={`px-4 py-2 transition-colors  duration-300 mb-4  rounded-[18px] ${isOpen ? 'bg-[#FFFFFF]  border-[2px] border-[#96C78B]' : 'bg-[#FFFFFF] border-[#E0E0E0] border'}`}>
+    <div className={`px-4 py-2 transition-colors 2xl:w-[1000px] xl:w-[750px] mx-auto  duration-300 mb-4  rounded-[18px] ${isOpen ? 'bg-[#FFFFFF]  border-[2px] border-[#96C78B]' : 'bg-[#FFFFFF] border-[#E0E0E0] border'}`}>
         
       <div className="flex justify-between items-center cursor-pointer" onClick={handleToggle}>
         <div className="flex items-center gap-4">

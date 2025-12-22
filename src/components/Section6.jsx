@@ -13,8 +13,8 @@ Your Mobile</h1>
 </div>
 <div className="xl:w-[50%] xl:flex items-center justify-center xl:mt-0 mt-[140px]">
     <div className=" relative rounded-full bg-linear-to-b from-[#38BBA2] to-[#10302A] h-[400px] xl:w-[400px] ">
-        <div className="w-[480px] absolute top-[-90px] left-[-40px]">
-        <Image width={500} height={1000} src="/mobile3.png" className="w-full h-full object-cover  " alt="" /></div>
+        <div className="w-[480px] absolute top-[-75px] left-[-40px]">
+        <Image width={500} height={1000} src="/Rectangle copy 1.png" className="w-full h-full object-cover  " alt="" /></div>
         <div className=" absolute rounded-2xl bg-[#FFFFFF] w-[110px] h-[110px] right-[270px] shadow-2xl border-1 border-[#9999]/20 top-[40px] ">
             <div className="rounded-full bg-[#F9F5FE] w-[50px] h-[50px] m-auto p-[8px] mt-[20px]  ">
            <div className="w-[30px] mx-auto">

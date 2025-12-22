@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Section5 = () => {
     return (
 
@@ -15,7 +16,7 @@ const Section5 = () => {
 Forecast Trends, and Make Smarter Moves With Our
 Powered Dashboard.</p>
 
-<button className="rounded-[9px] bg-[#FFFFFF80]/50 py-2 px-3 items-center w-[170px] mt-[20px] cursor-pointer font-medium text-[16px] text-[#FFFFFF]">Start Investing Now!</button>
+<Link href="/Contactus"><button className="rounded-[9px] bg-[#FFFFFF80]/50 py-2 px-3 items-center w-[170px] mt-[20px] cursor-pointer font-medium text-[16px] text-[#FFFFFF]">Start Your Journy</button></Link>
 
             </div>
         </div>
