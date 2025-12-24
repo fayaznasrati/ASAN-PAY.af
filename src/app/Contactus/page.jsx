@@ -7,24 +7,38 @@ import Sectionb5 from "./Sectionb5";
 import Faq from "../data/faqData";
 import FaqToggle from "@/components/faqToggle";
 import Section10 from "@/components/Section10";
+import Section10r from "@/components/Section10r";
 const ContactUSPage = () => {
-
-return (
+  return (
     <div>
-        <Sectionb1/>
-        <Sectionb2/>
-        <Sectionb3/>
-        <Sectionb4/>
-        <Sectionb5/>
-        <div className="max-w-screen-2xl pb-[8rem] flex flex-col items-center justify-center px-[80px] pt-[80px] mx-auto  ">
-        <div className="rounded-full bg-[#F0F0F0] w-[125px] h-[49px] mb-[18px] items-center content-center pl-[18px] ">
-        <p className="text-[18px] font-bold text-[#28937F]">Questions</p>
+      <Sectionb1 />
+      <Sectionb2 />
+      <Sectionb3 />
+      <Sectionb4 />
+      <Sectionb5 />
+
+      <div className="max-w-screen-2xl xl:pb-[8rem] mx-auto  xl:flex flex-col items-center justify-center xl:px-[80px] pt-[80px] px-[40px]  ">
+        <div className="rounded-full bg-[#F0F0F0] w-[125px] h-[49px] xl:mb-[18px] mb-[30px] items-center content-center pl-[18px] mx-auto ">
+          <p className="xl:text-[18px] 2xl:text-[20px] font-bold text-[#28937F]">
+            Questions
+          </p>
         </div>
-        <h1 className="mb-[120px] text-[35px] font-bold">Frequently Asked Questions</h1>
-        <div className="w-[1000px]">
-      {Faq.map((faq)=> <FaqToggle heading={faq.title} children={faq.children}  key={faq.id} />)}</div></div>
-      <Section10/>
+        <h1 className="xl:mb-[120px] 2xl:mb-[80px] xl:mb-[50px] 2xl:text-[40px] xl:text-[35px] text-[30px] text-center xl:text-start font-bold">
+          Frequently Asked Questions
+        </h1>
+        <div className="2xl:w-[1200px] xl:w-[1000px]">
+          {Faq.map((faq) => (
+            <FaqToggle
+              heading={faq.title}
+              children={faq.children}
+              key={faq.id}
+            />
+          ))}
+        </div>
+      </div>
+      <Section10 />
+      <Section10r />
     </div>
-)
-}
+  );
+};
 export default ContactUSPage;
