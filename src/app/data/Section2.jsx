@@ -14,8 +14,8 @@ const Section2 =[
         {
         id: 3,
         image:  "/discount.png" ,
-        title: "Exclusive Promos and Discounts",
-        desc: "Exclusive app promos, discounts, cashback; save, feel benefits in your wallet."
+        title: "Innovative Delivery",
+        desc: "Unique market presence achieved through innovative service delivery."
     },
         {
         id: 4,

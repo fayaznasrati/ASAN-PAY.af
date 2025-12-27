@@ -39,10 +39,10 @@ const Header = () => {
                 <NavBarLink title={"Features"} isActive={pathname.endsWith("/Features")} href={"/Features"}/>
                 </Link>
                    <Link href="/Aboutus"> 
-               <NavBarLink title={"Aboutus"} isActive={pathname.endsWith("/Aboutus")} href={"/Aboutus"}/>
+               <NavBarLink title={"About Us"} isActive={pathname.endsWith("/Aboutus")} href={"/Aboutus"}/>
     </Link>
                 <Link href="/Contactus">
-               <NavBarLink title={"Contactus"} isActive={pathname.endsWith("/Contactus")} href={"/Contactus"}/>
+               <NavBarLink title={"Contact Us"} isActive={pathname.endsWith("/Contactus")} href={"/Contactus"}/>
                  </Link>
             </ul>
             <button className="px-5 py-2 md:block hidden bg-gradient-to-r rounded-full cursor-pointer text-[#FFFFFF] from-[#2E8C7A] to-[#0C2621]">

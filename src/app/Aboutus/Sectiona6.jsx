@@ -64,7 +64,7 @@ const Sectiona6 = () => {
                                     </div>
                                     <div>
                                     <h1 className="text-[#FFFFFF] 2xl:text-[22px] xl:text-[18px] text-[16px] mb-[5px]">Community Driven</h1>
-                                    <p className="text-[#FFFFFF] 2xl:text-[18px] xl:text-[16px] text-[14px] xl:w-[350px]">Every transaction is clear and traceable. ASAN-PAY ensures full visibility so users can trust every payment they make.</p>
+                                    <p className="text-[#FFFFFF] 2xl:text-[18px] xl:text-[16px] text-[14px] xl:w-[350px]">We connect users and businesses globally with fast, safe, and reliable digital payments built for everyone, everywhere.</p>
                                     </div>
                                 </div>
                 

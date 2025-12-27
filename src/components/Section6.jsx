@@ -19,7 +19,7 @@ Your Mobile</h1>
             <div className="rounded-full bg-[#F9F5FE] w-[50px] h-[50px] m-auto p-[8px] mt-[20px]  ">
            <div className="w-[30px] mx-auto">
             <Image
-                              src="/Group.png"
+                              src="/Group.svg"
                               width={2200}
                               height={400}
                               alt="homeImage"
@@ -32,7 +32,7 @@ Your Mobile</h1>
             <div className="rounded-full bg-[#F9F5FE] w-[50px] h-[50px] m-auto p-[8px] mt-[20px]  ">
            <div className="w-[30px] mx-auto">
             <Image
-                              src="/transfer 1.png"
+                              src="/Group1.svg"
                               width={2200}
                               height={400}
                               alt="homeImage"
@@ -45,7 +45,7 @@ Your Mobile</h1>
             <div className="rounded-full bg-[#F9F5FE] w-[50px] h-[50px] m-auto p-[8px] mt-[20px]  ">
            <div className="w-[30px] mx-auto">
             <Image
-                              src="/icon (1).png"
+                              src="/Vector.svg"
                               width={2200}
                               height={400}
                               alt="homeImage"
