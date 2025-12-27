@@ -40,7 +40,7 @@ const Section1 = () => {
             <h1 className="xl:text-[35px] text-[36px] mt-[20px] xl:mt-0 2xl:text-[42px] font-bold text-[#FFFFFF]">Your Trusted Partner in Digital Payments</h1>
 
         </div>
-          <p className="xl:text-[15px] 2xl:text-[18px] font-medium text-[#FFFFFF] mt-[30px] px-[30px] xl:px-0 xl:w-[500px]" >Manage your money, send and receive payments, and shop online securely with Asan Pay — your all-in-one digital wallet. Fast, simple, and made for everyone.</p>
+          <p className="xl:text-[15px] 2xl:text-[18px] font-medium text-[#FFFFFF] mt-[30px] px-[30px] xl:px-0 xl:w-[500px]" >Send and receive cash, make payments, settle your bills, and shop online securely all with Asan Pay, Your all-in-one digital wallet. It's fast, simple, secure, and made for everyone.</p>
           <div className="flex  gap-5 xl:px-0 px-[30px] mt-[20px] ">
             <button className="cursor-pointer" >
                 <div className="flex gap-1 bg-[#090909] rounded-[9px] cursor-pointer mt-[20px] py-2 px-3 items-center">
