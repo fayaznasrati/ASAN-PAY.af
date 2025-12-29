@@ -10,7 +10,7 @@ const Section3 = () => {
             </div>
             <div className="px-[20px] xl:px-[80px] py-[100px] 2xl:w-[1300px] xl:w-[1000px] h-[850px] m-auto" >
             <Image
-                  src="/Section3home.png"
+                  src="/Frame 1686553331.svg"
                   className=""
                   width={2200}
                   height={400}

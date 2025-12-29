@@ -13,7 +13,7 @@ and Save.</h1>
             </div>
             <div className=" xl:w-[45%] xl:mt-0 mt-[60px]">
 <Image
-                  src="/Section4home.png"
+                  src="/span copy 2 1.svg"
                   width={2200}
                   height={400}
                   alt="homeImage"

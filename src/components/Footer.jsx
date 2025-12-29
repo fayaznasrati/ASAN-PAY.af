@@ -9,12 +9,12 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
 return(
- <div className="bg-[url('/Footer(1).png')] bg-cover bg-center hidden xl:block  h-[700px]   ">
+ <div className="bg-[url('/Footer.svg')] bg-cover bg-center hidden xl:block  h-[700px]   ">
     <div className="max-w-screen-2xl mx-auto px-[100px]">
 <div className="flex w-full">
  <div className="w-[50%]">
                                   <Image
-                                                              src="/logo.png"
+                                                              src="/Frame 1686553255.png"
                                                               width={2200}
                                                               height={400}
                                                               className=" w-[200px] h-[60px] mt-[80px] "
@@ -32,23 +32,16 @@ return(
 <div className="w-[17%]">
 <h1 className="text-[#FFFFFF] text-[18px] font-bold">COMPANY</h1>
 <p className="text-[#FFFFFF] text-[16px] mt-[40px]">About Us</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Our Team</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Career</p>
 <p className="text-[#FFFFFF] text-[16px] mt-[20px]">Contact Us</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">blog</p>
 </div>
 <div className="w-[17%]">
 <h1 className="text-[#FFFFFF] text-[18px] font-bold">SUPPORT</h1>
 <p className="text-[#FFFFFF] text-[16px] mt-[40px]">Getting Started</p>
 <p className="text-[#FFFFFF] text-[16px] mt-[20px]">Help Center</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Server Status</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Report a Bug</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Chat Support</p>
 </div>
 <div className="w-[17%]">
 <h1 className="text-[#FFFFFF] text-[18px] font-bold">PRODUCTS</h1>
 <p className="text-[#FFFFFF] text-[16px] mt-[40px]">Features</p>
-<p className="text-[#FFFFFF] text-[16px] mt-[20px]">Review</p>
 <p className="text-[#FFFFFF] text-[16px] mt-[20px]">Update</p>
 </div>
 <div className="w-[17%]">
