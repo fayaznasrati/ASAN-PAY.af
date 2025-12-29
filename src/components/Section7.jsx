@@ -5,7 +5,7 @@ const Section7 = () => {
         <div className="px-[80px] hidden xl:block max-w-screen-2xl mx-auto py-[100px] mt-[100px]">
             <div className=" relative">
                 <Image
-                                              src="/Frame 6.png"
+                                              src="/Frame 6.svg"
                                               width={2200}
                                               height={400}
                                               alt="homeImage"
@@ -18,7 +18,7 @@ const Section7 = () => {
                 </div>
                 <div className="2xl:w-[460px] xl:ml-0 2xl:ml-14 xl:w-[400px] h-full my-[-50px]">
                     <Image
-                                              src="/Group 4.png"
+                                              src="/Group 4.svg"
                                               width={2200}
                                               height={400}
                                               alt="homeImage"

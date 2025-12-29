@@ -6,8 +6,8 @@ const Section1 = () => {
         
             <section className="relative  " >
       <Image
-      src="/bgHome.png"
-      className="cursor-pointer hidden xl:block"
+      src="/Landing Page (1).svg"
+      className="  hidden xl:block"
       width={2200}
       height={400}
       alt="homeImage"
@@ -27,7 +27,7 @@ const Section1 = () => {
         <div className=" flex  gap-3 px-[20px] 2xl:py-3 py-2 xl:py-2 2xl:mb-[50px] items-center bg-[#FFFFFF]/30 rounded-full mb-[5px]">
         <div className="">
          <Image
-                                                                              src="/Star 1.png"
+                                                                              src="/Star 1.svg"
                                                                               width={2200}
                                                                               height={400}
                                                                               className="xl:w-[16px] w-[14px] h-[14px] 2xl:w-[24px] 2xl:h-[24px] xl:h-[16px] text-[#FFFFFF] mr-[]"
@@ -45,7 +45,7 @@ const Section1 = () => {
             <button className="cursor-pointer" >
                 <div className="flex gap-1 bg-[#090909] rounded-[9px] cursor-pointer mt-[20px] py-2 px-3 items-center">
                     <Image
-                                                                              src="/Logo (1).png"
+                                                                              src="/Logo.svg"
                                                                               width={2200}
                                                                               height={400}
                                                                               className="w-[28px] text-[#fff]  h-[31px] mr-[8px]"
@@ -83,9 +83,11 @@ const Section1 = () => {
         
         <div className="w-[44%] hidden relative xl:flex">
             <div className="xl:w-[230px] 2xl:w-[370px] absolute top-[70px] z-99">
-            <img src="Mockup_Questions 2 (3).png" className="w-auto  h-auto object-cover " alt="Mobile image 1" /></div>
+            <img src="Mockup_Questions 2 46 (1).svg" className="w-auto  h-auto object-cover " alt="Mobile image 1" />
+            </div>
             <div className="xl:w-[230px] 2xl:w-[370px] ml-[170px] absolute 2xl:bottom-[-210px] xl:bottom-[-90px]">
-            <img src="Mobile 2.png" className="w-full h-full object-cover" alt="" /></div>
+            <img src="Mockup_Questions 21 1.svg" className="w-full h-full object-cover" alt="" />
+            </div>
         </div></div>
       </div>
    </section>

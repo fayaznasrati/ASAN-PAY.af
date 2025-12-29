@@ -4,10 +4,10 @@ const Section5 = () => {
 
  
     <div className="relative max-w-screen-2xl px-5 mx-auto pl-[80px] pr-[80px] hidden xl:block">
-        <img src="Rectangle 3.png" className="   mt-[200px]  " alt="Rectangle" />
+        <img src="Frame 1686553299 (1).svg" className="   mt-[200px]  " alt="Rectangle" />
         <div className="absolute top-[-140px] pl-[10px] pr-[90px] flex">
             <div className="w-[60%]">
-                <img src="computer.png" className="w-[700px]  " alt="computer" />
+                <img src="file_2025-09-11_05.07.03 copy 1 (2).png" className="w-[700px]  " alt="computer" />
             </div>
             <div className="mt-[200px] w-[35%] ">
             <h1 className="text-[40px] font-medium text-[#FFFFFF]">Powerful Insights Made Simple </h1>
