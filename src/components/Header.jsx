@@ -62,10 +62,10 @@ const Header = () => {
                 <NavBarLink title={"Features"} isActive={pathname.endsWith("/Features")} href={"/Features"}/>
                 </Link>
                 <Link href="/Aboutus" onClick={()=> setIsOpen(false)}>
-                  <NavBarLink title={"Aboutus"} isActive={pathname.endsWith("/Aboutus")} href={"/Aboutus"}/>
+                  <NavBarLink title={"About us"} isActive={pathname.endsWith("/Aboutus")} href={"/Aboutus"}/>
                 </Link>
                 <Link href="/Contactus" onClick={()=> setIsOpen(false)}>
-                <NavBarLink title={"Contactus"} isActive={pathname.endsWith("/Contactus")} href={"/Contactus"}/>
+                <NavBarLink title={"Contact us"} isActive={pathname.endsWith("/Contactus")} href={"/Contactus"}/>
                 </Link>
             </ul>
             <button className="cursor-pointer rounded-full px-[100px] mt-[20px] text-[20px] text-[#fff] py-4 bg-linear-to-r from-[#27CAAB] to-[#0A2B25]" >Login</button>

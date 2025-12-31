@@ -13,20 +13,9 @@ const Section2 =[
     },
         {
         id: 3,
-<<<<<<< Updated upstream
-        image:  "/discount.png" ,
-<<<<<<< Updated upstream
-        title: "Innovative Delivery",
-        desc: "Unique market presence achieved through innovative service delivery."
-=======
-        title: "Exclusive Promos and Discounts",
-        desc: "Exclusive app promos, discounts, cashback; save, feel benefits in your wallet."
-=======
         image:  "/discount.svg" ,
         title: "Innovative Delivery",
         desc: "Unique market presence achieved through innovative service delivery."
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     },
         {
         id: 4,

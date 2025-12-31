@@ -20,7 +20,7 @@ import Section10r from "@/components/Section10r";
 
 export default function Home() {
   return (
-    <div className=" mx-auto ">
+    <div className=" mx-auto  ">
       <Section1/>
       <section className="absolute items-center mx-auto top-[540px] z-[999] 2xl:top-[740px] left-0 right-0" >
         <div className="relative items-center mx-auto ">
