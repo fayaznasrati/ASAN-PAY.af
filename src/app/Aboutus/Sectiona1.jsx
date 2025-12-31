@@ -3,7 +3,7 @@ const Sectiona1 = () => {
     return(
         <section className=" relative">
             <Image
-                  src="/Web 7.png"
+                  src="/Web 7.svg"
                   className="w-full hidden xl:block"
                   width={2200}
                   height={400}
